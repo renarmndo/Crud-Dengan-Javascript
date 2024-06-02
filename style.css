@@ -1,0 +1,181 @@
+html,
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.heading-content {
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.main-head {
+  text-align: center;
+  color: blue;
+  font-size: 25px;
+}
+
+.container {
+  border: 1px solid black;
+  max-width: 645px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-input label {
+  display: block;
+  margin-bottom: 5px;
+  color: blue;
+  padding: 10px;
+}
+
+.form-input input[type="text"],
+.form-input input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-radio {
+  padding: 10px 0;
+}
+
+.btn-input {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.search-container {
+  width: 100%;
+  max-width: 640px;
+  border: 1px solid black;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.book-search {
+  text-align: center;
+  color: blue;
+  margin-bottom: 20px;
+}
+
+.form-search {
+  display: inline-block;
+  width: calc(100% - 120px);
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.form-search label {
+  display: block;
+  margin-bottom: 5px;
+  color: blue;
+}
+
+.form-search input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn-button {
+  display: inline-block;
+  width: 100px;
+  vertical-align: middle;
+}
+
+.btn-button button {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.heading-container {
+  width: 100%;
+  max-width: 675px;
+  border: 1px solid black;
+  margin: 0 auto;
+  display: "";
+}
+.heading-container h2 {
+  color: blue;
+  padding: 10px;
+}
+.end-container {
+  width: 100%;
+  max-width: 675px;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.end-container h2 {
+  color: blue;
+  padding: 10px;
+}
+
+.value-input {
+  border: solid 1px black;
+  margin: 25px;
+  padding: 10px;
+}
+.primary {
+  color: white;
+  border: none;
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.danger {
+  color: white;
+  border: none;
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+}
+.book-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.daftar-book {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.end-footer {
+  background-color: blue;
+  margin: 0;
+  width: 100%;
+  bottom: 0;
+}
+.end-footer p {
+  text-align: center;
+  color: white;
+  font-size: large;
+  padding: 10px;
+}

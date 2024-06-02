@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikasi Rak Buku Submission Dicoding</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="heading-content">BookShelf Apps</h1>
+    <div class="container">
+      <h2 class="main-head">Masukkan Buku Baru</h2>
+      <form id="form-buku">
+        <div class="form-input">
+          <label for="judul">Judul</label>
+          <input
+            type="text"
+            name="judul"
+            id="judul"
+            placeholder="Masukkan Judul Buku"
+            required
+          />
+        </div>
+        <div class="form-input">
+          <label for="penulis">Penulis</label>
+          <input
+            type="text"
+            name="penulis"
+            id="penulis"
+            placeholder="Masukkan Penulis"
+            required
+          />
+        </div>
+        <div class="form-input">
+          <label for="tahun">Tahun</label>
+          <input
+            type="number"
+            id="tahun"
+            name="tahun"
+            placeholder="Masukkan Tahun"
+            required
+          />
+        </div>
+        <div class="form-radio">
+          <label for="selesai">Selesai Dibaca</label>
+          <input type="checkbox" name="selesai" id="selesai" />
+        </div>
+        <button class="btn-input">Masukkan Buku ke Rak</button>
+      </form>
+    </div>
+    <div class="search-container">
+      <h2 class="book-search">Cari Buku (Opsional)</h2>
+      <div class="form-search">
+        <label for="judulSearch">Judul</label>
+        <input type="text" name="judulSearch" id="judulSearch" />
+      </div>
+      <div class="btn-button">
+        <button id="btn-search">Cari</button>
+      </div>
+    </div>
+    <div class="heading-container">
+      <h2>Belum Selesai Dibaca</h2>
+      <div class="book-list">
+        <div class="daftar-book" id="belum-dibaca"></div>
+      </div>
+    </div>
+    <div class="end-container">
+      <h2>Selesai Dibaca</h2>
+      <div class="book-list">
+        <div class="daftar-book" id="selesai-dibaca"></div>
+      </div>
+    </div>
+    <footer class="end-footer">
+      <p>&copy Dicoding Indonesia | FrontEnd Developer</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
